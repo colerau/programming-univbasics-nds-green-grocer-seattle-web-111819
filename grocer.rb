@@ -80,6 +80,8 @@ def checkout(cart, coupons)
     total += final_cart[counter][:price] * final_cart[counter][:count]
     counter += 1 
   end 
+  total 
+end 
   
 
 
